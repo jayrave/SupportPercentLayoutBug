@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SupportPercentLayoutBug</string>
+    <string name="must_be_centered">This text view must be centered</string>
+    <string name="description">\"PercentFrameLayout\" is in blue and \"MyPercentFrameLayout\" is in green. Both the layouts should have a centered TextView that says \"This text view must be centered\", but it is invisible in PercentFrameLayout because, it fails to extract layout attributes from the INCLUDE tag and assigns 0 to both width and height. MyPercentFrameLayout has a small fix in place for this</string>
+</resources>
